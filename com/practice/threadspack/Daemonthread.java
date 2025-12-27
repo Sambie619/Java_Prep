@@ -1,6 +1,6 @@
 package com.practice.threadspack;
 
-public class Daemonthread extends Thread{
+public class Daemonthread extends Thread {
     public Daemonthread(String name) {
         super(name);
     }
