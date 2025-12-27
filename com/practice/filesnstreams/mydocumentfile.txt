@@ -1,0 +1,13 @@
+📂 JAVA FILE CLASS
+
+ 
+
+
+
+Used for:
+
+file info
+
+directories
+
+permissions
