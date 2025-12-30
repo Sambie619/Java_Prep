@@ -1,8 +1,8 @@
 package com.practice.threadspack;
 class Customer {
-    int amount = 10000; // initial balance
+    int amount = 10000;// initial balance
     // synchronized withdraw method
-    synchronized void withdraw(int amount) {
+    synchronized void withdraw(int amount){
         System.out.println("going to withdraw...");
         // insufficient balance
         if (this.amount < amount) {
