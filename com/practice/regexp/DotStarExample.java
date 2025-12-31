@@ -18,6 +18,6 @@ public class DotStarExample{
         System.out.println("1".matches("\\d{2,}"));
         System.out.println("1235345".matches("\\d{2,4}"));
         System.out.println("123".matches("\\d+"));
-        System.out.println("".matches("\\d+}"));
+        System.out.println("".matches("\\d+"));
     }
 }
