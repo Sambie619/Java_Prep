@@ -1,4 +1,4 @@
-package designpatternpack.adaptorpattern;
+package designpatternpack.adapterpattern;
 
 public class BankDetails {
 	private String bankName;
@@ -15,3 +15,4 @@ public class BankDetails {
     public void setAccNumber(long accNumber) { this.accNumber = accNumber; }
 
 }
+//“BankDetails is the adaptee that needs to be adapted to the CreditCard interface.”

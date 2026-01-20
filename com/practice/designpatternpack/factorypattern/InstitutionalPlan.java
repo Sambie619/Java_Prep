@@ -1,7 +1,7 @@
 package designpatternpack.factorypattern;
 
 public class InstitutionalPlan extends Plan{
-	public void getRate() {
+	public InstitutionalPlan() {
         rate = 5.50;
     }
 
