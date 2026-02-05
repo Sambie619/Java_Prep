@@ -5,7 +5,7 @@ import java.io.ObjectOutputStream;
 
 public class SerializeEmployee{
     public static void main(String[] args) {
-        try{
+        try{//obj to bytestream
             Employee emp=new Employee(59, "Sabin");
             FileOutputStream f=new FileOutputStream("com/practice/filesnstreams/obj2byte.txt");
             ObjectOutputStream o=new ObjectOutputStream(f);
