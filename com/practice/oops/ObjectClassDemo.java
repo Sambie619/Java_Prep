@@ -23,7 +23,7 @@ class Student {
         if (getClass() != obj.getClass()) return false;
 
         Student s = (Student) obj;
-        return id == s.id && name.equals(s.name);
+        return id == s.id && name.equals(s.name);//val checking
     }
 
     // Overriding hashCode()
@@ -35,7 +35,7 @@ class Student {
 
 public class ObjectClassDemo {
     public static void main(String[] args) {
-        Student s1 = new Student(1, "Rahul");
+        Student s1 = new Student(1, "Rahul");//created with new??then different memory of heap
         Student s2 = new Student(1, "Rahul");
         // toString()
         System.out.println(s1);
