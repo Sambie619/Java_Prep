@@ -10,3 +10,4 @@ abstract class Plan {
 //Factory Pattern defines an interface for creating 
 // an object, but lets subclasses or a factory class
 //  decide which class to instantiate.
+//Categor:Creational,Factory – creates objects without exposing creation logic

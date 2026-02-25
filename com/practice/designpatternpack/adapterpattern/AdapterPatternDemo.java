@@ -34,3 +34,4 @@ public class AdapterPatternDemo {
         sc.close();
     }
 }
+//Category:Structural
